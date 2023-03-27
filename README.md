@@ -6,12 +6,12 @@
 BIG DATA - Chapter 3
 
 ## Hasil
-![Screenshot](image/1.png)
-![Screenshot](image/2.png)
-![Screenshot](image/3.png)
-![Screenshot](image/4.png)
-![Screenshot](image/5.png)
-![Screenshot](image/6.png)
-![Screenshot](image/7.png)
-![Screenshot](image/8.png)
-![Screenshot](image/9.png)
+![Screenshot](img/1.png)
+![Screenshot](img/2.png)
+![Screenshot](img/3.png)
+![Screenshot](img/4.png)
+![Screenshot](img/5.png)
+![Screenshot](img/6.png)
+![Screenshot](img/7.png)
+![Screenshot](img/8.png)
+![Screenshot](img/9.png)
