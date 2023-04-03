@@ -19,13 +19,9 @@ BIG DATA - Chapter 3
 
 Kode 1: 
 sc : sc adalah objek SparkContext pada Apache Spark. 
-
 accumulator : adalah objek SparkContext pada Apache Spark.
-
 parallelize : Accumulators adalah variabel yang hanya dapat diakses secara read-only oleh setiap task, tetapi dapat ditambahkan nilai dari semua task
-
 lambda : parallelize adalah fungsi dalam SparkContext yang digunakan untuk membuat RDD (Resilient Distributed Datasets) dari sebuah kumpulan data dalam bentuk array.
-
 value : nilai dari suatu variabel bisa berupa Integer, String, DLL
 
 
