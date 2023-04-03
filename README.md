@@ -19,20 +19,24 @@ BIG DATA - Chapter 3
 
 Kode 1: 
 sc : sc adalah objek SparkContext pada Apache Spark. 
+
 accumulator : adalah objek SparkContext pada Apache Spark.
+
 parallelize : Accumulators adalah variabel yang hanya dapat diakses secara read-only oleh setiap task, tetapi dapat ditambahkan nilai dari semua task
+
 lambda : parallelize adalah fungsi dalam SparkContext yang digunakan untuk membuat RDD (Resilient Distributed Datasets) dari sebuah kumpulan data dalam bentuk array.
+
 value : nilai dari suatu variabel bisa berupa Integer, String, DLL
-
-
+<!-- 
+ -->
 Kode 2: 
 broadcast : Fungsi broadcast digunakan untuk mengirimkan variabel yang besar dan sering digunakan pada setiap worker dalam sebuah cluster.
 
 list : Fungsi list digunakan untuk membuat sebuah list yang kemudian digunakan untuk membuat sebuah RDD (Resilient Distributed Dataset) pada Spark.
 
 range : Fungsi range digunakan untuk membuat sebuah RDD yang berisi rentang nilai tertentu.
-
-
+<!-- 
+ -->
 Kode 3: 
 textFile : baris ini digunakan untuk membaca file teks yang berada pada lokasi yang telah ditentukan dan menyimpannya dalam variabel textFile.
 
@@ -43,8 +47,8 @@ setiap baris data, dan menyimpan hasilnya dalam variabel filteredData.
 cache : baris ini digunakan untuk melakukan caching pada data yang telah difilter.
 
 count : baris ini digunakan untuk menghitung jumlah baris pada data yang telah difilter dan di-cache sebelumnya.
-
-
+<!-- 
+ -->
 Kode 4: 
 map : metode untuk melakukan transformasi pada setiap elemen RDD dengan mengaplikasikan suatu fungsi pada setiap elemennya.
 
@@ -55,8 +59,8 @@ len : metode untuk mengembalikan jumlah elemen dalam RDD.
 keys : metode untuk mengembalikan RDD baru yang berisi kunci (key) dari setiap pasangan kunci-nilai (key-value) dalam RDD awal.
 
 values : metode untuk mengembalikan RDD baru yang berisi nilai (value) dari setiap pasangan kunci-nilai dalam RDD awal.
-
-
+<!-- 
+ -->
 Kode 5: 
 defaultParallelism : Ini adalah parameter konfigurasi pada Apache Spark yang menentukan jumlah default partisi yang digunakan dalam sebuah RDD (Resilient Distributed Dataset).
 
@@ -69,8 +73,8 @@ repartition : Ini adalah metode pada RDD yang mengubah jumlah partisi dalam RDD 
 coalesce : Ini adalah metode pada RDD yang menggabungkan beberapa partisi RDD menjadi satu partisi yang lebih besar.
 
 toDebugString : Ini adalah metode pada RDD yang mengembalikan string yang berisi informasi mengenai RDD.
-
-
+<!-- 
+ -->
 Kode 6: 
 flatMap : Fungsi ini akan menghasilkan sebuah RDD yang terdiri dari daftar kata-kata.
 
